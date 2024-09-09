@@ -46,7 +46,7 @@ contract RegisterDocument is Initializable, AccessControlUpgradeable, UUPSUpgrad
 
     function revokeRoleToAddress(bytes32 role, address addressToRovoke) public onlyRole(DEFAULT_ADMIN_ROLE) {
         validateRoleExists(role);
-        revokeRole(UPGRADER_ROLE, addressToRovoke);
+        revokeRole(role, addressToRovoke);
     }
 
     function registerDocument(bytes32 documentHash, Document calldata document) external onlyRole(ADMIN_ROLE) {

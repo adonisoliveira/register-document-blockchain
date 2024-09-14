@@ -1,0 +1,996 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xe0db2C857527Df7181C3Cf25CDa048FD53e68a4A",
+      "txHash": "0x484f8f3c32a1dfede73e130602e97f7745fc4303da943553dfc53d8d3f2d00a1",
+      "kind": "uups"
+    },
+    {
+      "address": "0x98528031985c987BFB812211Abd52C82c13a70A2",
+      "txHash": "0x1f43c35aac86a387b280c6f672118f98c3bb20ae31ab1e6e89ca1e2e24c979c6",
+      "kind": "uups"
+    },
+    {
+      "address": "0x3e4A034A11d5A44CE73e0ED52A728f1214018049",
+      "txHash": "0x4b704f5788a81f488886d6421a994bb35f9c238f6198c27ee7a4b1c291be230d",
+      "kind": "uups"
+    },
+    {
+      "address": "0x01C3e36048151e5a75c6284235E31B6163a48F35",
+      "txHash": "0x6c1790f3a37a121290186c0e697edb617eb18ffc817a331e1ac2f53ecfa41f44",
+      "kind": "uups"
+    },
+    {
+      "address": "0xB10526f1092dD6391d5624E0b6d93e883FA98A0B",
+      "txHash": "0x22fabbb9bda9b3c2737d5975a6cf6a0a030ba45196e1a1df06cb6fc36b5e2d2f",
+      "kind": "uups"
+    },
+    {
+      "address": "0x3c899c6265Bb69192B88D510e64B5EA0cB403483",
+      "txHash": "0xd73a7c63fe87a0a85ae6a3ab266d1c5b0be95f61cb352f90411ce10dfb2eb428",
+      "kind": "uups"
+    },
+    {
+      "address": "0x7627ea65B18E3F065740891F66F3703b4422E7d3",
+      "txHash": "0x76ec18b6935ab45ff3f7e38db94bdcfbed150ce1204f3720a5ace7ac10f62e8b",
+      "kind": "uups"
+    },
+    {
+      "address": "0x713ed21AC9BA0A50dFcD1bCDBF5bA0182D1E9C80",
+      "txHash": "0x027e7c604ac7d086f857db00c216d8735ba89a32ce4bab77456a8f5c9b73cc1c",
+      "kind": "uups"
+    },
+    {
+      "address": "0xccF9C22E3332f7F86798492C2B3b95F1366786D9",
+      "txHash": "0xf0f5a15ffc1c3ca151b09752c6f6ba1cf92894ed84967e3744fce019831876c9",
+      "kind": "uups"
+    },
+    {
+      "address": "0xb65C18411172cd9127c9691dB73E544B70ccB132",
+      "txHash": "0x5e01c6dfe821ed6ac64977a3055b0385d95c8a3132d2c2103d9baa2aa64bf823",
+      "kind": "uups"
+    },
+    {
+      "address": "0x114299767d27b053DFB9bFec9b450e1E60D9Fd0F",
+      "txHash": "0xc5fab1f472bad3c80c90e963a4cdd1e9c27e9cd6ef9afd0811813599d54782f4",
+      "kind": "uups"
+    },
+    {
+      "address": "0xddD49B74A03919034a9Ba9eA7d477578fb594eC5",
+      "txHash": "0x6cd847de3a1c89e772c6ac5e0fd0465f60d4484eb30a19d90ebfb638575d51a3",
+      "kind": "uups"
+    },
+    {
+      "address": "0x96e23101640Cf76D3F0c9E004dE8B02A6F7b99d4",
+      "txHash": "0xbcbe04627b3428c879cf70250c11637d358696871ede93cf0dd16a4420f5f980",
+      "kind": "uups"
+    },
+    {
+      "address": "0xDa5d39F3aF224CF09cAC7A659D9D5a3E908e029E",
+      "txHash": "0x9ef3be0ac81b31afe96e30331f188a6f44fbc8b405ee62365de8ca28c9c89f7e",
+      "kind": "uups"
+    },
+    {
+      "address": "0x9b4d69F04Fa03B55cAcd963bB41409cCe4f8c84d",
+      "txHash": "0xf98452b098fb25aed857582eb1921c55c7ef037d67419395fe27bee36bd0f4aa",
+      "kind": "uups"
+    },
+    {
+      "address": "0x7718CE0b593b8F08776bEA71f38F15e73DC85392",
+      "txHash": "0x1a9b3099d712e2aaff1c36218d9660ca4023b0a5791fd98044124fcc4016b33b",
+      "kind": "uups"
+    },
+    {
+      "address": "0xE4bdfB4be4D57D1F7F925011B1934C2Ab72cBCE3",
+      "txHash": "0x774cc4d926c4da7eb28c2026ca4d338bb0084cf99de259ebec742ba68f4f6271",
+      "kind": "uups"
+    },
+    {
+      "address": "0xa7E182d3cCD683A4eE905DdC375B65e72cc1BA22",
+      "txHash": "0xc9d00a4ff4b649f5e7c0f69ac7ebabba553f2cec086fe70c65193774f9494e89",
+      "kind": "uups"
+    },
+    {
+      "address": "0x5a766B46E0Feed6f3667a70a25b68d182e732F1e",
+      "txHash": "0xee2094b44f55f5c5acd88b02272ab38e2cc83e7ebc6e07869a05db1c92ade7d4",
+      "kind": "uups"
+    },
+    {
+      "address": "0x8d546702559c5aA049D5f2D61B8CcE1B4977A0f2",
+      "txHash": "0x8f51f92c031c268b840a8b8ab37ac72a7e03fda9ccc3471ce325325019bbc227",
+      "kind": "uups"
+    },
+    {
+      "address": "0x47D7a3D3f0F6e68B18627b1054Cf2A47a0087080",
+      "txHash": "0x3ef7404f457960d9317c22c9cdf93f49f9c3196d65935314c3d2e827608cfd46",
+      "kind": "uups"
+    },
+    {
+      "address": "0xc06EA8463fd923d57FBb56920DC6ee4Fd3B7BF3d",
+      "txHash": "0x66f3df5b4a7db4e6e93a7fa27ec42401f6e3b374c8e04b5f6352918f0b0ca855",
+      "kind": "uups"
+    },
+    {
+      "address": "0x2795AcD1Bfc4bD43f800857343ED2E1edDE1b27F",
+      "txHash": "0x64af95cb8e8c70218185291fa24174366fb472bcfad2b3872fa4a660a5fba98f",
+      "kind": "uups"
+    },
+    {
+      "address": "0xE6f55B9c5148aB08Faf43bb1b85B732D7b992150",
+      "txHash": "0xf8042336dd8d4710e5d51baaafe0bce047601000362ad0608212d90c5b2861a3",
+      "kind": "uups"
+    },
+    {
+      "address": "0x03077aD5633f814f6688DeCDF237f3d75772aE8f",
+      "txHash": "0x12ea5a84014858874a556eeb786ff261aa086e44145fe465ab9b56d665dac97e",
+      "kind": "uups"
+    },
+    {
+      "address": "0xAEe6A6D22DF4B47D77e447062187C56baD0197B3",
+      "txHash": "0xbb813f716302f87229ac76d9cf44a60e39261d885e4ec0ff148b8f19252c70da",
+      "kind": "uups"
+    },
+    {
+      "address": "0x0Dd313131981d6c70111acf14837805C6b0772CD",
+      "txHash": "0xa801344e69815280082a69ac87dce95dceed1d524d8be52132fef35bf2c3ae2a",
+      "kind": "uups"
+    },
+    {
+      "address": "0x7467633313626AD1962bad8dF785a104D609072f",
+      "txHash": "0x425d9334eb63657cf5187ba9eebd7e6a61475f2dc6a903bef4aee8b348903387",
+      "kind": "uups"
+    },
+    {
+      "address": "0x4229bD7A87CA8685d80203160DCaBB5E5Ca32BaA",
+      "txHash": "0x23413f327ce9abf4bdb9a611cbdba2efb7a683938f257136d81de845eb25ad6e",
+      "kind": "uups"
+    },
+    {
+      "address": "0xd827cDD16abB4c24BbB10B04a6a84448f98EDaca",
+      "txHash": "0x16ea7e17b1ebbcf9a678e0b2b5632015ce0adefd0c8f61a396acc61769ee1835",
+      "kind": "uups"
+    },
+    {
+      "address": "0x2d46A142D3C137Eb04FD7A1c261887b0b5A559b8",
+      "txHash": "0x4ad74664ae6db5f3cf5fa0b460b5a0a842ccf21476c745fc5e0e520b4f256fa0",
+      "kind": "uups"
+    },
+    {
+      "address": "0xDe0F6E045A88e17c528939BBf852fA3ef0d09465",
+      "txHash": "0xb3fb08a98884a61846a09e94f2d5d3fae7602a47ad37bbdff3ca41e55f36f00c",
+      "kind": "uups"
+    },
+    {
+      "address": "0x0E4312659DedaC90A0969964Fc2531255347A746",
+      "txHash": "0xc21efabda88844fd9ce85d1965d2467f6b7420d0889afb1874ba96c4ff447999",
+      "kind": "uups"
+    },
+    {
+      "address": "0xE1a0d869d050d3927afd312ae4747Dc8B8809ffa",
+      "txHash": "0x3e83ea942338b31fac57f020d7465317dc29ad75691b6a57c1f2c491c947f785",
+      "kind": "uups"
+    },
+    {
+      "address": "0xddE20a9965e2906a45ea34124698167e4c0C08A2",
+      "txHash": "0x9e1949ebee3857de8c298b5b68e2f615974cb2525155a4ee78fb643482d65530",
+      "kind": "uups"
+    },
+    {
+      "address": "0x8541e7265e2F4fe44a4C9fDDE9e80f637072fB5F",
+      "txHash": "0x87dc7e0474bd92a3c1c5b6fc58f8538832bc2716945a6eb4501e0ae7a6e1f8c8",
+      "kind": "uups"
+    },
+    {
+      "address": "0x26e4FE85f6F5D9997b29018311BE1f0265965804",
+      "txHash": "0x625f2db22cd6d628919ac51b1905db22f083ca34e1ff0a55ffa8b1f64305df0f",
+      "kind": "uups"
+    },
+    {
+      "address": "0x08258dbD99FAa5a50897d9AB861Aab4645040169",
+      "txHash": "0xb5bb520e48f3f1f8f751009e22a8d2fb8ab3aa2ba2f03251a43ba742d992bfc0",
+      "kind": "uups"
+    },
+    {
+      "address": "0x27772dA08c9A68559aaa1c5911784484ca1dfa84",
+      "txHash": "0x079246664984215f6b63d3400faa0832d14e6f728932761a7ebca5694d515f75",
+      "kind": "uups"
+    },
+    {
+      "address": "0x156Cca1a47Cc1edEF9Faa033A867Aeb84b690c6c",
+      "txHash": "0xd8dcee53758fafe81d8677891543226ff33766f5d79b190cee9108225eaa1b50",
+      "kind": "uups"
+    },
+    {
+      "address": "0x07e5fC5a503e53a3f9C9343E48120CEAfa347d48",
+      "txHash": "0x828aa5cd7ad7602e1ccc36ab5c4d6ceebe02d9af092e060190eeeb35502bcac7",
+      "kind": "uups"
+    },
+    {
+      "address": "0xa275fE6Bd4B805a558D7BF57e698c7291aBD556B",
+      "txHash": "0x9ad629e8b125893dee5cd5ca1cc9f43241aaa9deaf487d15626b500bac5a60dc",
+      "kind": "uups"
+    },
+    {
+      "address": "0x3a6c6eFcf186d31401FAA9c9343C672a52B43F4a",
+      "txHash": "0x86dc5f5ac5aa020c587542e6de3cc43ccc12a4c8b14d5061349d251cb89ee490",
+      "kind": "uups"
+    },
+    {
+      "address": "0x8b6Ee50E374A889f605Db55E4620479750fBc5f8",
+      "txHash": "0x506f611d8e8327e4231721a5f05991766755173c6aa5edcdff3beb8041aad6f9",
+      "kind": "uups"
+    },
+    {
+      "address": "0x12EE17aee9566D950555d652E7f52078d7CDD9F2",
+      "txHash": "0x1d03cefffd356875ee0fbaa975e2edcae39eafefe0a80fb85168a63bacfe64f7",
+      "kind": "uups"
+    },
+    {
+      "address": "0x85aF0BD93bafC92C64271E52ca3D3E3E7EeE6488",
+      "txHash": "0x30fa410fc91ef5f73602214ec334efe3610c9e0a7eb6d09d90b6b9f2034135e1",
+      "kind": "uups"
+    },
+    {
+      "address": "0x02f1609D0a9488444C0C9e6B41b07BB53073f933",
+      "txHash": "0x5d8e1c0fe7ae25b68e903c9d48656d431fb685cb7ec3e539543f2afa97134405",
+      "kind": "uups"
+    },
+    {
+      "address": "0xCF4A74d632C8bDe78d463C21644586BD91075f8f",
+      "txHash": "0xea75f20e13d2eba70525c3654a5498da43f1ae814049f2f1137d9f4c41875513",
+      "kind": "uups"
+    },
+    {
+      "address": "0x919F1260CcE9f6b6203B39501082141C430598e7",
+      "txHash": "0x7233a31e8d2ace8eb45664950700f58a545b7b716ade13c6ab89220343e621eb",
+      "kind": "uups"
+    },
+    {
+      "address": "0xC68b48a312Ad9516E5c9A020b3DC37AB380c243A",
+      "txHash": "0xd97720a1b8a4338c25f59829819bea13690b9f91a6a4f8c3894e50051d1a90c1",
+      "kind": "uups"
+    },
+    {
+      "address": "0xAEE89ca9e4d47ba4847cE9B8Bc0F35cB0d3e90a6",
+      "txHash": "0x28a1531bc59d2dfd342ee5e327d801e49ead75812f79b63e94803745e0d794d0",
+      "kind": "uups"
+    },
+    {
+      "address": "0x682A729eD2ad6285EEf67809573d7BD664FAa1B6",
+      "txHash": "0xc83eaf4aa4686539f44e7a48672b6ec1015e4b9100d48db61e4be5a113a86061",
+      "kind": "uups"
+    },
+    {
+      "address": "0x4F7abEe7379221D54873ad6EBb7b15EA68d5A36e",
+      "txHash": "0xa6cc597ed3b0458ce72849143a43ee589b89b3c2e461c5dc76a7af6a8cdc30ec",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "71fae05a6ce3726c68c8455dabdb1b554f58443d2a0a30f9b995ba570d4082be": {
+      "address": "0xC0CdA9a4bc213ca9Fc154a793a8fC41aC11221b1",
+      "txHash": "0x2cfbf3cb5ab359decb79fb05a031328939e69a2b8dfbd70cbd686c7dad89a10a",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "documents",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_bytes32,t_struct(Document)1702_storage)",
+            "contract": "RegisterDocument",
+            "src": "contracts\\RegisterDocument.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)24_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AccessControlStorage)34_storage": {
+            "label": "struct AccessControlUpgradeable.AccessControlStorage",
+            "members": [
+              {
+                "label": "_roles",
+                "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)158_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(RoleData)24_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "hasRole",
+                "type": "t_mapping(t_address,t_bool)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(Document)1702_storage)": {
+            "label": "mapping(bytes32 => struct RegisterDocument.Document)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Document)1702_storage": {
+            "label": "struct RegisterDocument.Document",
+            "members": [
+              {
+                "label": "mainDocument",
+                "type": "t_struct(MainDocument)1691_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "description",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "signatories",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(MainDocument)1691_storage": {
+            "label": "struct RegisterDocument.MainDocument",
+            "members": [
+              {
+                "label": "documentHash",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "transactionId",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessControl": [
+            {
+              "contract": "AccessControlUpgradeable",
+              "label": "_roles",
+              "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\AccessControlUpgradeable.sol:61",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "76b04c380ee0993e0b077ff4d329a110f202ab78255333e0639339aa71bbfce6": {
+      "address": "0x1B5c80D7A0c3dF22D5c55f5d68828CF70672EC63",
+      "txHash": "0x6f3310278c8dfd10a8c219a4172884e1d09431f656da8c207ffa701f9fb45657",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "documents",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_bytes32,t_struct(Document)1702_storage)",
+            "contract": "RegisterDocument",
+            "src": "contracts\\RegisterDocument.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)24_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AccessControlStorage)34_storage": {
+            "label": "struct AccessControlUpgradeable.AccessControlStorage",
+            "members": [
+              {
+                "label": "_roles",
+                "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)158_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(RoleData)24_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "hasRole",
+                "type": "t_mapping(t_address,t_bool)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(Document)1702_storage)": {
+            "label": "mapping(bytes32 => struct RegisterDocument.Document)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Document)1702_storage": {
+            "label": "struct RegisterDocument.Document",
+            "members": [
+              {
+                "label": "mainDocument",
+                "type": "t_struct(MainDocument)1691_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "description",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "signatories",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(MainDocument)1691_storage": {
+            "label": "struct RegisterDocument.MainDocument",
+            "members": [
+              {
+                "label": "documentHash",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "transactionId",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessControl": [
+            {
+              "contract": "AccessControlUpgradeable",
+              "label": "_roles",
+              "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\AccessControlUpgradeable.sol:61",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "05040fe149107f6267a002eca858c3b6f534a9309d21325613352e4c6d64b8c2": {
+      "address": "0x9Af9c9cE761a3F9817A8016583505DFFf4613AA5",
+      "txHash": "0x4d26327f576bc66ada3f76ad59b9e44341eb4187d02929ecd065f174fcf4dd80",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "documents",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_bytes32,t_struct(Document)1702_storage)",
+            "contract": "RegisterDocument",
+            "src": "contracts\\RegisterDocument.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)24_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AccessControlStorage)34_storage": {
+            "label": "struct AccessControlUpgradeable.AccessControlStorage",
+            "members": [
+              {
+                "label": "_roles",
+                "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)158_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(RoleData)24_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "hasRole",
+                "type": "t_mapping(t_address,t_bool)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(Document)1702_storage)": {
+            "label": "mapping(bytes32 => struct RegisterDocument.Document)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Document)1702_storage": {
+            "label": "struct RegisterDocument.Document",
+            "members": [
+              {
+                "label": "mainDocument",
+                "type": "t_struct(MainDocument)1691_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "description",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "signatories",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(MainDocument)1691_storage": {
+            "label": "struct RegisterDocument.MainDocument",
+            "members": [
+              {
+                "label": "documentHash",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "transactionId",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessControl": [
+            {
+              "contract": "AccessControlUpgradeable",
+              "label": "_roles",
+              "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\AccessControlUpgradeable.sol:61",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "704c41f16af52abeb33919a525a1fc7a76eaa6481f0d04bdd25d5702c5df2439": {
+      "address": "0xd025da8496ee2D7aa631b7678bCA5d605E499dBe",
+      "txHash": "0x7d8cfe8a0f35d43a48e9a75199b5cb302aa01fbfa5f126dbae8aa18fe49640c2",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "documents",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_bytes32,t_struct(Document)1702_storage)",
+            "contract": "RegisterDocument",
+            "src": "contracts\\RegisterDocument.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)24_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AccessControlStorage)34_storage": {
+            "label": "struct AccessControlUpgradeable.AccessControlStorage",
+            "members": [
+              {
+                "label": "_roles",
+                "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)158_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(RoleData)24_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "hasRole",
+                "type": "t_mapping(t_address,t_bool)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(Document)1702_storage)": {
+            "label": "mapping(bytes32 => struct RegisterDocument.Document)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Document)1702_storage": {
+            "label": "struct RegisterDocument.Document",
+            "members": [
+              {
+                "label": "mainDocument",
+                "type": "t_struct(MainDocument)1691_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "description",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "signatories",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(MainDocument)1691_storage": {
+            "label": "struct RegisterDocument.MainDocument",
+            "members": [
+              {
+                "label": "documentHash",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "transactionId",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessControl": [
+            {
+              "contract": "AccessControlUpgradeable",
+              "label": "_roles",
+              "type": "t_mapping(t_bytes32,t_struct(RoleData)24_storage)",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\AccessControlUpgradeable.sol:61",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

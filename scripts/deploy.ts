@@ -1,17 +1,18 @@
 import { ethers, upgrades } from "hardhat";
- 
+//import { getImplementationAddress } from "@openzeppelin/upgrades-core";
+
 async function main() {
   const Contract = await ethers.getContractFactory("RegisterDocument");
-  const contract = await upgrades.deployProxy(Contract, { initializer: "initialize" });
-
+  const contract = await upgrades.deployProxy(Contract, { initializer: "initialize", kind: "uups" });
+  
   await contract.waitForDeployment();
 
-  const contractAddress = await contract.getAddress();
-
-  console.log(`Contract deployed at ${contractAddress}`);
+  console.log(`Proxy contract deployed at ${contract.target}`);
 }
  
-main().catch(error => {
+main()
+.then(() => process.exit(0))
+.catch(error => {
   console.error(error);
-  process.exitCode = 1;
+  process.exit(1);
 });

@@ -1,7 +1,7 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-const RegisterDocument = buildModule("RegisterDocument", (registerDocument) => {
-  const contract = registerDocument.contract("RegisterDocument");
+const RegisterDocument = buildModule("RegisterDocument", (m) => {
+  const contract = m.contract("RegisterDocument");
 
   return { contract };
 });

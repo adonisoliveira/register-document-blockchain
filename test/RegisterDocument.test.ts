@@ -1,6 +1,6 @@
 import { loadFixture } from "@nomicfoundation/hardhat-toolbox/network-helpers";
 import { expect } from "chai";
-import { ethers, network, upgrades } from "hardhat";
+import { ethers, upgrades } from "hardhat";
 import { RegisterDocumentRequest } from "../utils/types";
 import { RegisterDocument } from "../typechain-types";
 
@@ -34,6 +34,8 @@ describe("Deploy and update the RegisterDocument smart contract", function () {
     const Contract = await ethers.getContractFactory("RegisterDocument");
     const contract = await upgrades.deployProxy(Contract, { initializer: "initialize" });
     const contractAddress = await contract.getAddress();
+    
+    console.log(contractAddress);
 
     return {
       contract,

@@ -39,47 +39,17 @@ contract RegisterDocument is Initializable, AccessControlUpgradeable, UUPSUpgrad
 
     function _authorizeUpgrade(address newImplementation) internal onlyRole(UPGRADER_ROLE) override {}
 
-    function grantRoleToAddress(bytes32 role, address addressToGrant) public onlyRole(DEFAULT_ADMIN_ROLE) {
+    function grantRoleToAddress(bytes32 role, address addressToGrant) external onlyRole(DEFAULT_ADMIN_ROLE) {
         validateRoleExists(role);
         grantRole(role, addressToGrant);
     }
 
-    function revokeRoleToAddress(bytes32 role, address addressToRovoke) public onlyRole(DEFAULT_ADMIN_ROLE) {
+    function revokeRoleToAddress(bytes32 role, address addressToRovoke) external onlyRole(DEFAULT_ADMIN_ROLE) {
         validateRoleExists(role);
         revokeRole(role, addressToRovoke);
     }
 
     function registerDocument(bytes32 documentHash, Document calldata document) external onlyRole(ADMIN_ROLE) {
-        validateDocument(documentHash, document);
-        documents[documentHash] = document;
-    }
-
-    function proveOwnership(bytes32 documentHash, address signatoryAddress) external view returns(Document memory) {
-        validateZeroAddress(signatoryAddress);
-
-        uint256 numberOfSignatories = documents[documentHash].signatories.length;
-
-        if (numberOfSignatories > 0) {
-            for (uint256 index = 0; index < numberOfSignatories; index++) {
-                if (documents[documentHash].signatories[index] == signatoryAddress) {
-                    Document memory document;
-                    document.name = documents[documentHash].name;
-                    document.description = documents[documentHash].description;
-                    document.mainDocument = documents[documentHash].mainDocument;
-
-                    return document;
-                }
-            }
-        }
-
-        revert("It was not possible to prove ownership of the document.");
-    }
-
-    function findDocumentByHash(bytes32 documentHash) external view onlyRole(ADMIN_ROLE) returns(Document memory) {
-        return documents[documentHash];
-    }
-
-    function validateDocument(bytes32 documentHash, Document memory document) private view {
         if (documentHash == bytes32(0) || bytes(document.name).length == 0 || bytes(document.description).length == 0) {
             revert("The document data was not submitted.");
         }
@@ -115,6 +85,33 @@ contract RegisterDocument is Initializable, AccessControlUpgradeable, UUPSUpgrad
                 }
             }
         }
+
+        documents[documentHash] = document;
+    }
+
+    function proveOwnership(bytes32 documentHash, address signatoryAddress) external view returns(Document memory) {
+        validateZeroAddress(signatoryAddress);
+
+        uint256 numberOfSignatories = documents[documentHash].signatories.length;
+
+        if (numberOfSignatories > 0) {
+            for (uint256 index = 0; index < numberOfSignatories; index++) {
+                if (documents[documentHash].signatories[index] == signatoryAddress) {
+                    Document memory document;
+                    document.name = documents[documentHash].name;
+                    document.description = documents[documentHash].description;
+                    document.mainDocument = documents[documentHash].mainDocument;
+
+                    return document;
+                }
+            }
+        }
+
+        revert("It was not possible to prove ownership of the document.");
+    }
+
+    function findDocumentByHash(bytes32 documentHash) external view onlyRole(ADMIN_ROLE) returns(Document memory) {
+        return documents[documentHash];
     }
 
     function validateZeroAddress(address signatoryAddress) private pure {

@@ -1,20 +1,20 @@
 import { ethers, upgrades } from "hardhat";
 
 //ENDEREÇO DO ULTIMO SMART CONTRACT DEPLOYADO AQUI
-const addressContractBase = "0x3C1D70624294b02866aDF1Ad30aA9085B95b25d1";
+const addressContractBase = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 
 async function main() {
-  const Contract = await ethers.getContractFactory("RegisterDocumentV1");
+  const Contract = await ethers.getContractFactory("RegisterDocument");
   const contract = await upgrades.upgradeProxy(addressContractBase, Contract);
   
   await contract.waitForDeployment();
   
-  const contractAddress = await contract.getAddress();
- 
-  console.log(`Contract updated at ${contractAddress}`);
+  console.log(`Contract updated at ${contract.target}`);
 }
 
-main().catch(error => {
+main()
+.then(() => process.exit(0))
+.catch(error => {
   console.error(error);
-  process.exitCode = 1;
+  process.exit(1);
 });

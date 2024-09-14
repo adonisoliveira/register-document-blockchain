@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\adoni\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\adoni\AppData\Local\Microsoft\WindowsApps;C:\Users\adoni\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\adoni\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin;;C:\Users\adoni\.dotnet\tools;C:\Users\adoni\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\adoni\Desenvolvimento\Web3\Hardhat\register-document\node_modules\@nomicfoundation\solidity-analyzer-win32-x64-msvc\solidity-analyzer.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "register-document",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "npx hardhat test",
+      "coverage": "npx hardhat coverage",
+      "build": "npx hardhat compile",
+      "start": "npx hardhat node",
+      "deploy": "npx hardhat run scripts/deploy.ts --network hardhat",
+      "update": "npx hardhat run scripts/update.ts --network hardhat",
+      "deploy-testnet": "npx hardhat run scripts/deploy.ts --network polygon_testnet",
+      "update-testnet": "npx hardhat run scripts/update.ts --network polygon_testnet",
+      "verify": "npx hardhat verify --network <network name> <contract implementation address>"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts-upgradeable": "^5.0.2",
+      "@openzeppelin/hardhat-upgrades": "^3.2.1",
+      "dotenv": "^16.4.5",
+      "hardhat": "^2.22.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -13,7 +13,7 @@
     "update": "npx hardhat run scripts/update.ts --network ganache",
     "deploy-testnet": "npx hardhat run scripts/deploy.ts --network polygon_testnet",
     "update-testnet": "npx hardhat run scripts/update.ts --network polygon_testnet",
-    "verify": "npx hardhat verify --network <network name> <contract implementation address>"
+    "verify": "npx hardhat verify --network polygon_testnet <contract implementation address>"
   },
   "keywords": [],
   "author": "",

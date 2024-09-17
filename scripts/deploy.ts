@@ -1,5 +1,4 @@
 import { ethers, upgrades } from "hardhat";
-//import { getImplementationAddress } from "@openzeppelin/upgrades-core";
 
 async function main() {
   const Contract = await ethers.getContractFactory("RegisterDocument");

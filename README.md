@@ -5,7 +5,7 @@ This project is a smart contract in Solidity responsible for storing documents a
 To install the project, you will need Node.js installed on your machine.
 After installing or updating Node.js, simply run the npm install command.
 
-#### Comandos com NPM:
+#### NPM:
 ```shell
 npm run test
 npm run coverage
@@ -15,7 +15,7 @@ npm run update
 npm run verify
 ```
 
-#### Comandos com YARN:
+#### YARN:
 ```shell
 yarn test
 yarn coverage
